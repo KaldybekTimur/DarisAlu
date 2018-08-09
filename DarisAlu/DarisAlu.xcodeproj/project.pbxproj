@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2287EC5C2110237700E38A2E /* LeaderBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287EC5B2110237700E38A2E /* LeaderBoardViewController.swift */; };
+		2287EC5F2110758600E38A2E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287EC5E2110758600E38A2E /* ProfileViewController.swift */; };
+		2287EC612111C62400E38A2E /* TestingFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287EC602111C62400E38A2E /* TestingFile.swift */; };
+		22BA7DC12105D73D00405515 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BA7DC02105D73D00405515 /* AppDelegate.swift */; };
+		22BA7DC32105D73D00405515 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BA7DC22105D73D00405515 /* ViewController.swift */; };
+		22BA7DC62105D73D00405515 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BA7DC42105D73D00405515 /* Main.storyboard */; };
+		22BA7DC82105D73E00405515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22BA7DC72105D73E00405515 /* Assets.xcassets */; };
+		22BA7DCB2105D73E00405515 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BA7DC92105D73E00405515 /* LaunchScreen.storyboard */; };
+		22BA7DD32105D7D200405515 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22BA7DD22105D7D200405515 /* GoogleService-Info.plist */; };
+		22BA7DD52105E68D00405515 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BA7DD42105E68D00405515 /* ExploreViewController.swift */; };
+		22BA7DD72107208200405515 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BA7DD62107208200405515 /* MainViewController.swift */; };
+		22BA7DDA2107442000405515 /* MainGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BA7DD92107442000405515 /* MainGameViewController.swift */; };
+		22BA7DDC210748D200405515 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BA7DDB210748D200405515 /* Questions.swift */; };
+		22BA7DDE2107497900405515 /* QuestionsBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BA7DDD2107497900405515 /* QuestionsBank.swift */; };
+		CFB5CF23281F9FE8C80D0568 /* Pods_DarisAlu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BFB7A22A7368A8089685470 /* Pods_DarisAlu.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2287EC5B2110237700E38A2E /* LeaderBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardViewController.swift; sourceTree = "<group>"; };
+		2287EC5E2110758600E38A2E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2287EC602111C62400E38A2E /* TestingFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingFile.swift; sourceTree = "<group>"; };
+		22BA7DBD2105D73D00405515 /* DarisAlu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarisAlu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22BA7DC02105D73D00405515 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22BA7DC22105D73D00405515 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22BA7DC52105D73D00405515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22BA7DC72105D73E00405515 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22BA7DCA2105D73E00405515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22BA7DCC2105D73E00405515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22BA7DD22105D7D200405515 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		22BA7DD42105E68D00405515 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		22BA7DD62107208200405515 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		22BA7DD92107442000405515 /* MainGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameViewController.swift; sourceTree = "<group>"; };
+		22BA7DDB210748D200405515 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		22BA7DDD2107497900405515 /* QuestionsBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsBank.swift; sourceTree = "<group>"; };
+		3BFB7A22A7368A8089685470 /* Pods_DarisAlu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarisAlu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B62140FAD90DC4D5AD750C7 /* Pods-DarisAlu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarisAlu.release.xcconfig"; path = "Pods/Target Support Files/Pods-DarisAlu/Pods-DarisAlu.release.xcconfig"; sourceTree = "<group>"; };
+		E0C5BA70E9EC0C8F56C9EF8F /* Pods-DarisAlu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarisAlu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DarisAlu/Pods-DarisAlu.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22BA7DBA2105D73D00405515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB5CF23281F9FE8C80D0568 /* Pods_DarisAlu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2287EC5A2110230C00E38A2E /* Leaderboard */ = {
+			isa = PBXGroup;
+			children = (
+				2287EC5B2110237700E38A2E /* LeaderBoardViewController.swift */,
+			);
+			path = Leaderboard;
+			sourceTree = "<group>";
+		};
+		2287EC5D2110756F00E38A2E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2287EC5E2110758600E38A2E /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		22BA7DB42105D73D00405515 = {
+			isa = PBXGroup;
+			children = (
+				2287EC602111C62400E38A2E /* TestingFile.swift */,
+				2287EC5D2110756F00E38A2E /* Profile */,
+				2287EC5A2110230C00E38A2E /* Leaderboard */,
+				22BA7DD8210743CE00405515 /* Game */,
+				22BA7DBF2105D73D00405515 /* DarisAlu */,
+				22BA7DBE2105D73D00405515 /* Products */,
+				754EEA175943427CD718AEA5 /* Pods */,
+				C99E2D78C3E3FBDA6D64FF37 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22BA7DBE2105D73D00405515 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22BA7DBD2105D73D00405515 /* DarisAlu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22BA7DBF2105D73D00405515 /* DarisAlu */ = {
+			isa = PBXGroup;
+			children = (
+				22BA7DC02105D73D00405515 /* AppDelegate.swift */,
+				22BA7DC22105D73D00405515 /* ViewController.swift */,
+				22BA7DD42105E68D00405515 /* ExploreViewController.swift */,
+				22BA7DD62107208200405515 /* MainViewController.swift */,
+				22BA7DC42105D73D00405515 /* Main.storyboard */,
+				22BA7DC72105D73E00405515 /* Assets.xcassets */,
+				22BA7DC92105D73E00405515 /* LaunchScreen.storyboard */,
+				22BA7DCC2105D73E00405515 /* Info.plist */,
+				22BA7DD22105D7D200405515 /* GoogleService-Info.plist */,
+			);
+			path = DarisAlu;
+			sourceTree = "<group>";
+		};
+		22BA7DD8210743CE00405515 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				22BA7DD92107442000405515 /* MainGameViewController.swift */,
+				22BA7DDD2107497900405515 /* QuestionsBank.swift */,
+				22BA7DDB210748D200405515 /* Questions.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		754EEA175943427CD718AEA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0C5BA70E9EC0C8F56C9EF8F /* Pods-DarisAlu.debug.xcconfig */,
+				4B62140FAD90DC4D5AD750C7 /* Pods-DarisAlu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C99E2D78C3E3FBDA6D64FF37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BFB7A22A7368A8089685470 /* Pods_DarisAlu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22BA7DBC2105D73D00405515 /* DarisAlu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22BA7DCF2105D73E00405515 /* Build configuration list for PBXNativeTarget "DarisAlu" */;
+			buildPhases = (
+				3DA4875800189FE7E400148D /* [CP] Check Pods Manifest.lock */,
+				22BA7DB92105D73D00405515 /* Sources */,
+				22BA7DBA2105D73D00405515 /* Frameworks */,
+				22BA7DBB2105D73D00405515 /* Resources */,
+				8D2D82D0FA1DB5393232FE60 /* [CP] Embed Pods Frameworks */,
+				17AA9486943EDE0A72EA838B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarisAlu;
+			productName = DarisAlu;
+			productReference = 22BA7DBD2105D73D00405515 /* DarisAlu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22BA7DB52105D73D00405515 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Timur Kaldybek";
+				TargetAttributes = {
+					22BA7DBC2105D73D00405515 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 22BA7DB82105D73D00405515 /* Build configuration list for PBXProject "DarisAlu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22BA7DB42105D73D00405515;
+			productRefGroup = 22BA7DBE2105D73D00405515 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22BA7DBC2105D73D00405515 /* DarisAlu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22BA7DBB2105D73D00405515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BA7DCB2105D73E00405515 /* LaunchScreen.storyboard in Resources */,
+				22BA7DD32105D7D200405515 /* GoogleService-Info.plist in Resources */,
+				22BA7DC82105D73E00405515 /* Assets.xcassets in Resources */,
+				22BA7DC62105D73D00405515 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17AA9486943EDE0A72EA838B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DarisAlu/Pods-DarisAlu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DA4875800189FE7E400148D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DarisAlu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D2D82D0FA1DB5393232FE60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DarisAlu/Pods-DarisAlu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DarisAlu/Pods-DarisAlu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22BA7DB92105D73D00405515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2287EC612111C62400E38A2E /* TestingFile.swift in Sources */,
+				22BA7DDA2107442000405515 /* MainGameViewController.swift in Sources */,
+				22BA7DC32105D73D00405515 /* ViewController.swift in Sources */,
+				22BA7DC12105D73D00405515 /* AppDelegate.swift in Sources */,
+				22BA7DDC210748D200405515 /* Questions.swift in Sources */,
+				22BA7DD52105E68D00405515 /* ExploreViewController.swift in Sources */,
+				22BA7DDE2107497900405515 /* QuestionsBank.swift in Sources */,
+				2287EC5F2110758600E38A2E /* ProfileViewController.swift in Sources */,
+				2287EC5C2110237700E38A2E /* LeaderBoardViewController.swift in Sources */,
+				22BA7DD72107208200405515 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22BA7DC42105D73D00405515 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22BA7DC52105D73D00405515 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22BA7DC92105D73E00405515 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22BA7DCA2105D73E00405515 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22BA7DCD2105D73E00405515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22BA7DCE2105D73E00405515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22BA7DD02105D73E00405515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0C5BA70E9EC0C8F56C9EF8F /* Pods-DarisAlu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67N9CV7B46;
+				INFOPLIST_FILE = DarisAlu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tk.DarisAlu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		22BA7DD12105D73E00405515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B62140FAD90DC4D5AD750C7 /* Pods-DarisAlu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67N9CV7B46;
+				INFOPLIST_FILE = DarisAlu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tk.DarisAlu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22BA7DB82105D73D00405515 /* Build configuration list for PBXProject "DarisAlu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BA7DCD2105D73E00405515 /* Debug */,
+				22BA7DCE2105D73E00405515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22BA7DCF2105D73E00405515 /* Build configuration list for PBXNativeTarget "DarisAlu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BA7DD02105D73E00405515 /* Debug */,
+				22BA7DD12105D73E00405515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22BA7DB52105D73D00405515 /* Project object */;
+}

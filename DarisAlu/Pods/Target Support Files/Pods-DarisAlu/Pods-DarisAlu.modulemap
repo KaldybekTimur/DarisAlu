@@ -1,0 +1,6 @@
+framework module Pods_DarisAlu {
+  umbrella header "Pods-DarisAlu-umbrella.h"
+
+  export *
+  module * { export * }
+}
